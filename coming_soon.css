@@ -1,0 +1,109 @@
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+body{
+		margin:0;
+		padding:0;
+		font-family:"josefin sans";
+		background-color:#f0f0f0;
+		font-size:16px;
+		}
+.one{
+		width:max-content;
+		padding:30px;
+		}  
+.img0{
+		width:100%;
+		}    
+.three{
+		margin:4pc auto 0pc auto;
+		text-align: center;
+		font-size:40px;
+		letter-spacing:10px;
+		}    
+.we{
+		color:hsl(0, 36%, 70%);
+		font-weight:300;
+		}    
+.come{
+		font-weight:600;
+		color:hsl(0, 6%, 24%);
+		}
+.four{
+		width:85%;
+		margin:2pc auto;
+		text-align:center;
+		color:hsl(0, 36%, 70%);
+		}    
+.five{
+		width:85%;
+		margin:auto;
+		}    
+input[type="email"]{
+		display:block;
+		width:83%;
+		padding:17px 25px;
+		border-radius:50px;
+		border:1px solid #aeaeae;
+		color:hsl(0, 36%, 70%);
+		font-family:"josefin sans";
+		z-index:-3;
+		}    
+.six{
+		width:85%;
+		margin:auto
+	 }
+.go{
+		width:40px;
+		background-color:green;
+		color:#f0f0f0;
+		text-align:center;
+   margin:-3.1pc 0px auto auto;
+   padding:4px 20px;
+		border-radius:50px;
+		border:.5px solid #aeaeae;
+		background:linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+		z-index:3;
+		font-size:40px;
+		font-weight:300;
+		}
+footer{
+		margin-top:3pc;
+		}
+.seven{
+		display:none;
+		}
+
+
+
+@media(min-width:768px){
+.one{
+		padding:30px 0px 0px 0px;
+		}
+.two{
+		display:none;
+		}
+.seven{
+		display:block;
+		}	
+.myflex1{
+		display:flex;
+		}		
+.left{
+		width:70%;
+		}		
+.img01{
+		height:100%;
+		background-color:#123456;
+		width:40vw;
+		background-image:url(hero-desktop.jpg);
+		background-size:cover;
+		background-repeat:no-repeat;
+		}	
+.left{
+		padding:20px 70px;
+		}		
+.left > section{
+		margin-left:0;
+		text-align:left;
+		}		
+	}
